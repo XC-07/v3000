@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>糠糠老师v我3000</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>糠糠老师快v我3000😍</h1>
+  <button id="微信">微信</button>
+  <button id="支付宝">支付宝</button>
+
+  <script>
+    const w = document.getElementById('微信');
+    const z = document.getElementById('支付宝');
+
+    if (w) {
+      w.addEventListener('click', function() {
+        alert('微信应付金额：3000');
+        const photoUrl = '/images/payment.jpg'; 
+        window.location.href = photoUrl;
+      });
+    }
+
+    if (z) {
+      z.addEventListener('click', function() {
+        alert('看啥呢，说v就必须v😊');
+      });
+    }
+  </script>
+</body>
+</html>
